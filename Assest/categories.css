@@ -1,0 +1,60 @@
+:root {
+    --primary-color: rgb(229, 186, 16);
+}
+
+.item-menu ul {
+    display: inline-block;
+    padding: 0rem !important;
+    margin: 20px auto !important;
+    list-style: none !important;
+}
+
+.item-menu ul li {
+    display: inline;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    text-align: center !important;
+    padding: 5px 0px !important;
+    margin: 20px 5px;
+    cursor: pointer;
+    font-size: 10pt;
+    transition: all .3s !important;
+}
+
+.item-menu ul li.active,
+.item-menu ul li.active:hover {
+    border-bottom: 3px solid var(--primary-color)
+}
+
+.item-menu ul li:hover {
+    border-bottom: 2px solid #ccc;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+    background: #DDD;
+  }
+  
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- .grid-item ---- */
+  
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+  
+  .grid-item {
+    float: left;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
